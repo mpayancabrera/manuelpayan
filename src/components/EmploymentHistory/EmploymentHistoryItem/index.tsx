@@ -10,7 +10,7 @@ export const EmploymentHistoryItem = ({item}: any) => {
       <p>{item.description}</p>
       <div>
         {item.skills.map((skill: string) => (
-          <Badge skill={skill} />
+          <Badge key={skill} skill={skill} />
         ))}
       </div>
     </div>
