@@ -4,6 +4,7 @@ import Script from 'next/script';
 import {Inter} from 'next/font/google';
 import {Footer} from '@/components/Layout/Footer';
 import {Header} from '@/components/Layout/Header';
+import {Providers} from './providers';
 
 const inter = Inter({subsets: ['latin']});
 
@@ -16,9 +17,11 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
       </body>
       <Script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript" />
     </html>
