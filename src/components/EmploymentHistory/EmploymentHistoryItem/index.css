@@ -14,5 +14,9 @@
 img {
   width: 100%;
   height: 150px;
-  object-fit: cover;
+  object-fit: scale-down;
+}
+
+.chakra-stack {
+  margin: 16px 0;
 }
