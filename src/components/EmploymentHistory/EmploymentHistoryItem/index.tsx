@@ -1,33 +1,7 @@
 'use client';
-import {
-  Badge,
-  Button,
-  ButtonGroup,
-  Card,
-  CardBody,
-  CardFooter,
-  Divider,
-  Heading,
-  Image,
-  Stack,
-  Text
-} from '@chakra-ui/react';
+import {Badge, Card, CardBody, Heading, Image, Stack, Text} from '@chakra-ui/react';
 import './index.css';
 
-{
-  /* <div className="EmploymentHistoryItem__Container">
-      <img src={item.image} />
-      <h5>{item.company}</h5>
-      <p>{item.role}</p>
-      <p>{item.description}</p>
-      <div>
-        {item.skills.map((skill: string) => (
-          <Badge key={skill} skill={skill} />
-        ))}
-      </div>
-    </div>
-     */
-}
 export const EmploymentHistoryItem = ({item}: any) => {
   return (
     <Card maxW="md">
@@ -48,13 +22,13 @@ export const EmploymentHistoryItem = ({item}: any) => {
           ))}
         </Stack>
       </CardBody>
-      <CardFooter>
+      {/* <CardFooter>
         <ButtonGroup>
           <Button size="lg" variant="solid" colorScheme="blue">
             More Info
           </Button>
         </ButtonGroup>
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   );
 };

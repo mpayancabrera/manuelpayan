@@ -1,4 +1,4 @@
-import {LinkedinBadge} from './Linkedin';
+import {RRSS} from './rrss';
 import './styles.css';
 
 export const Footer = () => (
@@ -14,7 +14,7 @@ export const Footer = () => (
         </p>
         <span>Cipriano Alhambra 16, Baeza (Jaén)</span>
       </div>
-      <LinkedinBadge />
+      <RRSS />
     </div>
 
     <div className="Footer__Author">
