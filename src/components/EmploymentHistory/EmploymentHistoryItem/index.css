@@ -20,3 +20,10 @@ img {
 .chakra-stack {
   margin: 16px 0;
 }
+
+.Skills__Container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente fila si no caben en el ancho disponible */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+}

@@ -1,5 +1,5 @@
-'use client';
 import {Badge, Card, CardBody, Heading, Image, Stack, Text} from '@chakra-ui/react';
+
 import './index.css';
 
 export const EmploymentHistoryItem = ({item}: any) => {
@@ -14,7 +14,7 @@ export const EmploymentHistoryItem = ({item}: any) => {
             {item.description}
           </Text>
         </Stack>
-        <Stack direction="row">
+        <Stack direction="row" className="Skills__Container">
           {item.skills.map(({text, color}: any) => (
             <Badge key={text} colorScheme={color}>
               {text}
@@ -22,13 +22,6 @@ export const EmploymentHistoryItem = ({item}: any) => {
           ))}
         </Stack>
       </CardBody>
-      {/* <CardFooter>
-        <ButtonGroup>
-          <Button size="lg" variant="solid" colorScheme="blue">
-            More Info
-          </Button>
-        </ButtonGroup>
-      </CardFooter> */}
     </Card>
   );
 };
