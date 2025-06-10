@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Manuel Payán Cabrera Portfolio
 
-## Getting Started
+Responsive personal portfolio website for Manuel Payán Cabrera, a Senior Frontend Developer. It's designed to showcase his professional experience, technical skills, and projects in an elegant and interactive way.
 
-First, run the development server:
+## ✨ Features
+
+- **Responsive Design**: Adapts seamlessly to desktop, tablet, and mobile devices.
+- **Multi-Page Layout**: Clear navigation to different sections:
+  - **Homepage**: A welcoming landing page with quick links.
+  - **Resume**: Detailed professional resume, including experience, education, skills, courses, and interests.
+  - **Portfolio**: A gallery of projects with descriptions, technologies used, and links to live versions.
+  - **Blog**: A section for articles and insights (content coming soon).
+- **Multi-Language Support**: Content available in both English and Spanish, with an easy-to-use language switcher.
+- **Dark/Light Mode**: User-selectable theme preference for optimal viewing comfort.
+- **Smooth Animations**: Subtle and engaging animations powered by GSAP to enhance user experience.
+- **Interactive UI**: Built with modern UI components for a clean and professional look.
+
+## 🚀 Tech Stack
+
+This project is built with a modern, performant, and developer-friendly technology stack:
+
+- **Framework**: [Next.js](https://nextjs.org/) (using the App Router)
+- **UI Library**: [React](https://reactjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [ShadCN UI](https://ui.shadcn.com/)
+- **Animations**: [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Internationalization (i18n)**: Custom solution for managing English and Spanish translations.
+
+## 📂 Project Structure (Overview)
+
+- `src/app/`: Contains the page routes, layouts, and global CSS.
+- `src/components/`: Reusable UI components (layout elements, ShadCN UI components, custom components).
+- `src/contexts/`: React Context providers (e.g., LanguageContext).
+- `src/hooks/`: Custom React hooks.
+- `src/lib/`: Utility functions, type definitions (`types.ts`), and resume/portfolio data (`resume-data.ts`).
+- `public/`: Static assets.
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later recommended)
+- npm
+
+### Installation
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+### Running the Development Server
+
+To start the development server (usually on `http://localhost:3000`):
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Building for Production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To create a production build:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run build
+```
 
-## Learn More
+This will generate an optimized static site in the `.next` directory. You can then serve these files using `npm start` or deploy them to a static hosting provider.
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is for personal use.
