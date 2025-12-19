@@ -42,16 +42,19 @@ export function Sidebar({resumeData}: SidebarProps) {
   return (
     <aside className="w-full md:w-80 lg:w-96 bg-card text-card-foreground p-6 md:p-8 flex-shrink-0 md:sticky md:top-16 md:h-[calc(100vh-4rem)] md:overflow-y-auto">
       <div className="flex flex-col items-center text-center pt-8 md:pt-0">
-        <div className="mb-6 mt-8 md:mt-0">
-          <Image
-            src="https://placehold.co/160x160.png"
-            alt={resumeData.name || 'Profile Picture'}
-            width={160}
-            height={160}
-            className="rounded-full mx-auto shadow-xl border-4 border-primary/30"
-            priority
-            data-ai-hint="profile portrait"
-          />
+        <div className="mb-6 mt-8 md:mt-0 relative">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-primary via-accent to-primary rounded-3xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+            <Image
+              src="https://res.cloudinary.com/mpayancabrera/image/upload/v1766169461/IMG_5437_mwnu3f.jpg"
+              alt={resumeData.name || 'Profile Picture'}
+              width={208}
+              height={208}
+              className="relative rounded-3xl mx-auto shadow-2xl border-2 border-primary/20 w-32 h-32 md:w-44 md:h-44 lg:w-52 lg:h-52 object-cover transition-all duration-300 group-hover:scale-105"
+              priority
+              data-ai-hint="profile portrait"
+            />
+          </div>
         </div>
         <h1 className="text-3xl lg:text-4xl font-headline font-bold text-primary mb-1">{resumeData.name}</h1>
         <p className="text-lg text-accent mb-8">{resumeData.jobTitle || t('resumePage.sidebar.jobTitleDefault')}</p>
