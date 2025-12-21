@@ -27,7 +27,7 @@ export const defaultResumeDataEn: ResumeFormData = {
       title: 'Senior Frontend Developer',
       dates: 'Jun 2022 – Present',
       description:
-        'Led frontend development using React and Next.js, driving architectural improvements and performance optimizations.\nMigrated legacy CI/CD pipelines from Concourse to GitHub Actions, streamlining deployment processes.\nRearchitected monolithic projects into Next.js, improving scalability and maintainability.\nEnhanced Core Web Vitals and reduced Time to Interactive (TTI) through systematic performance optimization.\nImplemented SSR strategies to boost SEO performance and initial load times.\nChampioned testing adoption across the platform, migrating from outdated libraries (Mocha, Enzyme) to modern testing stack (Jest, React Testing Library).\nCollaborated with cross-functional teams to deliver features aligned with product roadmap.'
+        'Leadership of new frontend developments using React and Next.js, driving architectural improvements and performance optimizations.\nMigration of legacy CI/CD pipelines from Concourse to GitHub Actions, streamlining deployment processes.\nConsolidation of legacy repositories into modular monorepos using Lerna and Webpack, reducing architectural complexity, operational costs.\nEnhancement of Core Web Vitals.\nImplementation of SSR strategies to boost SEO performance and initial load times.\nChampioning of testing adoption across the platform, migration from outdated libraries (Mocha, Enzyme) to modern testing stack (Jest, React Testing Library).\nCollaboration with cross-functional teams to deliver features aligned with product roadmap.'
     },
     {
       id: 'en-exp-2',
@@ -35,7 +35,7 @@ export const defaultResumeDataEn: ResumeFormData = {
       title: 'Frontend Developer',
       dates: 'Jul 2021 – Jun 2022',
       description:
-        'Developed user interfaces for international clients in capital markets and cryptocurrency sectors using React (CRA) and styled-components.\nDesigned UI/UX workflows with Figma for new features, ensuring seamless integration with Python-based APIs.\nBuilt containerized infrastructure with Docker and authored Kubernetes configuration files for deployment.\nWorked across multi-cloud environments including Azure and AWS, adapting solutions to different infrastructure requirements.'
+        'Development of user interfaces for international clients in capital markets and cryptocurrency sectors using React (CRA) and styled-components.\nDesign of UI/UX workflows with Figma for new features, ensuring seamless integration with Python-based APIs.\nBuilding of containerized infrastructure with Docker and authoring of Kubernetes configuration files for deployment.\nWork across multi-cloud environments including Azure and AWS, adapting solutions to different infrastructure requirements.'
     },
     {
       id: 'en-exp-3',
@@ -43,7 +43,7 @@ export const defaultResumeDataEn: ResumeFormData = {
       title: 'Full Stack Developer',
       dates: 'Mar 2019 – Jul 2021',
       description:
-        'Refactored legacy PHP/Symfony monolith into microservices architecture using Flask and React.\nDeveloped modern frontend with React, implementing SSR and TypeScript for improved performance and type safety.\nEstablished CI/CD pipelines using GitLab, Docker, and Kubernetes, assisting in the infrastructure modernization process.\nImplemented SEO optimization strategies to enhance platform visibility and organic traffic.\nApplied Domain-Driven Design (DDD), CQRS patterns, and RabbitMQ for efficient service orchestration.'
+        'Refactoring of legacy PHP/Symfony monolith into microservices architecture using Flask and React.\nDevelopment of modern frontend with React, implementing SSR and TypeScript for improved performance and type safety.\nEstablishment of CI/CD pipelines using GitLab, Docker, and Kubernetes, supporting infrastructure modernization process.\nImplementation of SEO optimization strategies to enhance platform visibility and organic traffic.\nApplication of Domain-Driven Design (DDD), CQRS patterns, and RabbitMQ for efficient service orchestration.'
     },
     {
       id: 'en-exp-4',
@@ -51,7 +51,7 @@ export const defaultResumeDataEn: ResumeFormData = {
       title: 'Software Engineer',
       dates: 'Jul 2017 – Mar 2019',
       description:
-        'Built web systems to optimize visitor flows to the Alhambra using Django and AngularJS.\nApplied neural networks and data forecasting techniques for real-time prediction.'
+        'Development of web systems to optimize visitor flows to the Alhambra using Django and AngularJS.\nApplication of neural networks and data forecasting techniques for real-time prediction and analytics.'
     },
     {
       id: 'en-exp-5',
@@ -59,7 +59,7 @@ export const defaultResumeDataEn: ResumeFormData = {
       title: 'Software Engineer',
       dates: 'Jun 2016 – Jul 2017',
       description:
-        'Developed new web platform for Intelligent Transport Systems using React and Mapbox for geospatial visualization.\nBuilt backend services with PHP and contributed to desktop application development using C#.\nCoordinated directly with international clients to gather requirements and deliver solutions.'
+        'Development of Intelligent Transport System (ITS) web platform using React and Mapbox for geospatial visualization.\nImplementation of new features and integrations for desktop application with PHP and C#.\nActive participation in technical project documentation, requirements specification, and technical writing.\nDirect coordination with international clients to gather requirements and deliver solutions.'
     }
   ],
   education: [
@@ -131,15 +131,15 @@ export const defaultResumeDataEs: ResumeFormData = {
         : exp.title,
     description:
       exp.company === 'StubHub International'
-        ? 'Lideré el desarrollo frontend utilizando React y Next.js, impulsando mejoras arquitectónicas y optimizaciones de rendimiento.\nMigré pipelines CI/CD heredados de Concourse a GitHub Actions, optimizando los procesos de despliegue.\nRearquitecturé proyectos monolíticos hacia Next.js, mejorando la escalabilidad y mantenibilidad.\nMejoré Core Web Vitals y reduje el Time to Interactive (TTI) mediante optimización sistemática del rendimiento.\nImplementé estrategias SSR para potenciar el rendimiento SEO y los tiempos de carga inicial.\nImpulsé la adopción de testing en toda la plataforma, migrando desde librerías obsoletas (Mocha, Enzyme) hacia un stack moderno de testing (Jest, React Testing Library).\nColaboré con equipos multifuncionales para entregar funcionalidades alineadas con la hoja de ruta del producto.'
+        ? 'Liderazgo de nuevos desarrollos frontend utilizando React y Next.js, impulsando mejoras de arquitectura y optimizaciones de rendimiento.\nMigración de pipelines CI/CD heredados de Concourse a GitHub Actions, optimizando procesos de despliegue.\nConsolidación de repositorios heredados en monorepositorios modulares usando Lerna y Webpack, reduciendo la complejidad de la arquitectura, los costes operativos y la fricción en los despliegues.\nMejora de Core Web Vitals.\nImplementación de estrategias SSR para potenciar el rendimiento SEO y tiempos de carga inicial.\nImpulso de la adopción de testing en toda la plataforma, migración desde librerías obsoletas (Mocha, Enzyme) hacia stack moderno de testing (Jest, React Testing Library).\nColaboración con equipos multifuncionales para entregar funcionalidades alineadas con la hoja de ruta del producto.'
         : exp.company === 'Version 1'
-        ? 'Desarrollé interfaces de usuario para clientes internacionales en sectores de mercados de capitales y criptomonedas utilizando React (CRA) y styled-components.\nDiseñé flujos UI/UX con Figma para nuevas funcionalidades, asegurando una integración fluida con APIs basadas en Python.\nConstruí infraestructura contenerizada con Docker y creé archivos de configuración de Kubernetes para despliegue.\nTrabajé en entornos multi-cloud incluyendo Azure y AWS, adaptando soluciones a diferentes requisitos de infraestructura.'
+        ? 'Desarrollo de interfaces de usuario para clientes internacionales en sectores de mercados de capitales y criptomonedas utilizando React (CRA) y styled-components.\nDiseño de flujos UI/UX con Figma para nuevas funcionalidades, asegurando integración fluida con APIs basadas en Python.\nCreación de infraestructura contenerizada con Docker y archivos de configuración de Kubernetes para despliegue.\nTrabajo en entornos multi-cloud incluyendo Azure y AWS, adaptando soluciones a diferentes requisitos de infraestructura.'
         : exp.company === 'PcComponentes'
-        ? 'Refactoricé monolito PHP/Symfony heredado hacia arquitectura de microservicios utilizando Flask y React.\nDesarrollé frontend moderno con React, implementando SSR y TypeScript para mejorar el rendimiento y la seguridad de tipos.\nEstablecí pipelines CI/CD utilizando GitLab, Docker y Kubernetes, asistiendo en el proceso de modernización de infraestructura.\nImplementé estrategias de optimización SEO para mejorar la visibilidad de la plataforma y el tráfico orgánico.\nApliqué Domain-Driven Design (DDD), patrones CQRS y RabbitMQ para una orquestación eficiente de servicios.'
+        ? 'Refactorización de monolito PHP/Symfony heredado hacia arquitectura de microservicios utilizando Flask y React.\nDesarrollo de frontend moderno con React, implementando SSR y TypeScript para mejorar rendimiento y seguridad de tipos.\nEstablecimiento de pipelines CI/CD utilizando GitLab, Docker y Kubernetes, apoyando proceso de modernización de infraestructura.\nImplementación de estrategias de optimización SEO para mejorar visibilidad de la plataforma y tráfico orgánico.\nAplicación de Domain-Driven Design (DDD), patrones CQRS y RabbitMQ para orquestación eficiente de servicios.'
         : exp.company === 'University of Granada'
-        ? 'Construí sistemas web para optimizar los flujos de visitantes a la Alhambra utilizando Django y AngularJS.\nApliqué redes neuronales y técnicas de predicción de datos para predicción en tiempo real.'
+        ? 'Desarrollo de sistemas web para optimizar flujos de visitantes a la Alhambra utilizando Django y AngularJS.\nAplicación de redes neuronales y técnicas de predicción de datos para análisis y predicción en tiempo real.'
         : exp.company === 'SICE'
-        ? 'Desarrollé nueva plataforma web para Sistemas Inteligentes de Transporte utilizando React y Mapbox para visualización geoespacial.\nConstruí servicios backend con PHP y contribuí al desarrollo de aplicación de escritorio utilizando C#.\nCoordiné directamente con clientes internacionales para recopilar requisitos y entregar soluciones.'
+        ? 'Desarrollo de plataforma web de Sistema Inteligente de Transporte (ITS) utilizando React y Mapbox para visualización geoespacial.\nImplementación de nuevas funcionalidades e integraciones para aplicación de escritorio con PHP y C#.\nParticipación activa en documentación técnica de proyectos, especificación de requisitos y redacción técnica.\nCoordinación directa con clientes internacionales para recopilar requisitos y entregar soluciones.'
         : exp.description
   })),
   education: defaultResumeDataEn.education.map((edu) => ({
