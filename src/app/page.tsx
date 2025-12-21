@@ -20,7 +20,7 @@ export default function WelcomePage() {
 
     if (headingRef.current) {
       const chars = headingRef.current.querySelectorAll('span.char');
-      tl.fromTo(chars, {opacity: 0, y: 20}, {opacity: 1, y: 0, stagger: 0.05, duration: 0.5, ease: 'power3.out'});
+      tl.fromTo(chars, {opacity: 0, y: 20}, {opacity: 1, y: 0, stagger: 0.05, duration: 0.6, ease: 'power3.out'});
     }
 
     if (buttonsRef.current) {
@@ -28,8 +28,8 @@ export default function WelcomePage() {
       tl.fromTo(
         buttons,
         {opacity: 0, y: 20},
-        {opacity: 1, y: 0, stagger: 0.2, duration: 0.6, ease: 'back.out(1.7)'},
-        '-=0.3'
+        {opacity: 1, y: 0, stagger: 0.2, duration: 0.4, ease: 'back.out(1.7)'},
+        '-=0.2'
       );
     }
   }, [fullWelcomeMessage]);
